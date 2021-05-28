@@ -10,15 +10,18 @@ header {
     width: 50%;
 }
 
-#grid-container {
+.grid-container {
     width: 90%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
 }
 
-header, #grid-container {
+header, .grid-container {
     margin: 20px auto;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
 }
 
 /* COMPONENTS */
